@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 750px;
+    width: 750px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container > .d1 {
+    width: 200px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.container > .d2 {
+    width: 300px;
+    height: 100px;
+    left: 200px;
+    top: 0px;
+    position: absolute;
+    border-width: 0px 4px 4px 4px;
+    border-color: black;
+    border-style: solid;
+}
+
+.container > .d3 {
+    width: 200px;
+    height: 100px;
+    left: 500px;
+    top: 0px;
+    position: absolute;
+    border-width: 0px 4px 4px 4px;
+    border-color: black;
+    border-style: solid;
+}
+
+.container > .d4 {
+    width: 50px;
+    height: 600px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    border-width: 0px 0px 4px 4px;
+    border-color: black;
+    border-style: solid;
+}
+
+.container > .d5 {
+    width: 100px;
+    height: 200px;
+    left: 0px;
+    top: 100px;
+    position: absolute;
+    border-width: 4px 4px 4px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+.container > .d6 {
+    width: 400px;
+    height: 400px;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    border: 4px solid black;
+}
+
+.container > .d7 {
+    width: 200px;
+    height: 200px;
+    left: 500px;
+    top: 100px;
+    position: absolute;
+    border: 4px solid black;
+}
+
+.container > .d8 {
+    width: 100px;
+    height: 200px;
+    left: 500px;
+    top: 300px;
+    position: absolute;
+    border: 4px solid black;
+}
+
+.container > .d9 {
+    width: 100px;
+    height: 200px;
+    left: 600px;
+    top: 300px;
+    position: absolute;
+    border: 4px solid black;
+}
+
+.container > .d10 {
+    width: 100px;
+    height: 300px;
+    left: 0px;
+    top: 300px;
+    position: absolute;
+    border-width: 4px 4px 4px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+.container > .d11 {
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 500px;
+    position: absolute;
+    border: 4px solid black;
+}
+
+.container > .d12 {
+    width: 200px;
+    height: 100px;
+    left: 300px;
+    top: 500px;
+    position: absolute;
+    border: 4px solid black;
+}
+
+.container > .d13 {
+    width: 200px;
+    height: 100px;
+    left: 300px;
+    top: 600px;
+    position: absolute;
+    border: 4px solid black;
+}
+
+.container > .d14 {
+    width: 200px;
+    height: 100px;
+    left: 500px;
+    top: 500px;
+    position: absolute;
+    border: 4px solid black;
+}
+
+.container > .d15 {
+    width: 200px;
+    height: 150px;
+    left: 500px;
+    top: 600px;
+    position: absolute;
+    border: 4px solid black;
+}
+
+.container > .d16 {
+    width: 50px;
+    height: 200px;
+    right: 0px;
+    top: 600px;
+    position: absolute;
+    border-width: 4px 0px 0px 4px;
+    border-color: black;
+    border-style: solid;
+}
+
+.container > .d17 {
+    width: 100px;
+    height: 200px;
+    left: 0px;
+    top: 600px;
+    position: absolute;
+    border-width: 4px 4px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+.container > .d18 {
+    width: 200px;
+    height: 100px;
+    left: 100px;
+    top: 700px;
+    position: absolute;
+    border-width: 4px 4px 0px 4px;
+    border-color: black;
+    border-style: solid;
+}
+
+.container > .d19 {
+    width: 200px;
+    height: 50px;
+    left: 300px;
+    top: 700px;
+    position: absolute;
+    border: 4px solid black;
+}
+
+.container > .d20 {
+    width: 400px;
+    height: 50px;
+    left: 300px;
+    top: 750px;
+    position: absolute;
+    border-width: 4px 4px 0px 4px;
+    border-color: black;
+    border-style: solid;
+}
+
+.grey {
+    background-color: lightgray ;
+}
+
+.tan {
+    background-color: blanchedalmond;
+}
+
+.black {
+    background-color: black;
+}
+
+.beige {
+    background-color: beige;
+}
+
+.red {
+    background-color: #E31616;
+}
+
+.blue {
+    background-color: midnightblue;
+}
+
+.yellow {
+    background-color: rgb(249, 221, 103) ;
+}
+
+.smoke {
+    background-color: whitesmoke;
+}
