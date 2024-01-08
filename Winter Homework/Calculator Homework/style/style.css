@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-color: 	#060606b3;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    background-color: #62616197;
+    position: relative;
+    min-width: 300px;
+    min-height: 400px;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px,auto)repeat(5,100px);
+    border-radius: 20px;
+    padding: 40px 30px 30px;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+    10px 10px 70px rgba(0, 0, 0, 0.25),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.container button {
+    color: #fff;
+    position: relative;
+    display: grid;
+    width: 80px;
+    place-items: center;
+    margin: 8px;
+    height: 80px;
+    background: linear-gradient(180deg, rgb(47,47,47), rgb(63,63,63));
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.25),
+    inset 0 -8px 8px rgba(0, 0, 0, 0.25), 
+    0 0 0 2px rgba(0, 0, 0, 0.75),
+    10px 20px 25px rgba(0, 0, 0, 0.4);
+    user-select: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.container button:active {
+    filter: brightness(1.5);
+}
+
+.container button::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    bottom: 14px;
+    right: 12px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #2d2d2d, #4d4d4d);
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.1),
+    10px 5px 10px rgba(0, 0, 0, 0.15);
+    border-left: 1px solid #0004;
+    border-bottom: 1px solid #0004;
+    border-top: 1px solid #0004;
+}
+
+.container button i {
+    position: relative;
+    font-style: normal;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.container .allClear {
+    grid-column: span 2;
+    width: 180px;
+    background: #f00;
+}
+
+.container .allClear::before {
+    background: linear-gradient(90deg, #d20000, #ffffff5c);
+    border-left: 1px solid #fff4;
+    border-bottom: 1px solid #fff4;
+    border-top: 1px solid #fff4;
+}
+
+.container .equals {
+    grid-column: span 2;
+    width: 180px;
+    background: #2196f3;
+}
+
+.container .equals::before {
+    background: linear-gradient(90deg, #1479c9, #ffffff5c);
+    border-left: 1px solid #fff4;
+    border-bottom: 1px solid #fff4;
+    border-top: 1px solid #fff4;
+}
+
+.output {
+    position: relative;
+    grid-column: span 4;
+    left: 10px;
+    border: none;
+    outline: none;
+    background-color: #90918d;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output .current {
+    font-size: 2.5rem;
+    user-select: none;
+}
+
+.output .previous {
+    font-size: 1.5rem;
+    user-select: none;
+}
