@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+
+#logo {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imageChoices {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.choices {
+    width: 20%;
+}
+
+.choices:active {
+    transform: scale(0.96);
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    color: yellow;
+    font-size: 24px;
+}
+
+td {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+#loader {
+    visibility: hidden;
+}
+
+#pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 250px;
+}
+
+.button {
+    background-color: yellow;
+    color: red;
+    height: 50px;
+    width: 150px;
+    font-size: 24px;
+    visibility: hidden;
+}
+
+.button:active {
+    transform: scale(0.96);
+}
+
